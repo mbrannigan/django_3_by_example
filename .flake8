@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 120
+ignore = F403,F405
+exclude =
+  .git,
+  __pycache__,
+  .nox,
+  .vscode,
+  mysite/blog/migrations/*,
+  __init__.py
